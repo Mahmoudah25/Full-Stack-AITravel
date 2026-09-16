@@ -1,0 +1,57 @@
+## ===================================
+## .NET / Visual Studio (backend/)
+## ===================================
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Publish output
+**/Properties/PublishProfiles/*.pubxml.user
+publish/
+PublishOutput/
+
+# Sensitive settings
+appsettings.json
+appsettings.*.json
+!appsettings.Development.json.example
+
+# User secrets
+secrets.json
+
+# NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+*.sql
+
+## ===================================
+## Frontend (frontend/)
+## ===================================
+
+node_modules/
+dist/
+.env
+.env.local
+
+## ===================================
+## OS / Editor files
+## ===================================
+
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/settings.json
