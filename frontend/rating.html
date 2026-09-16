@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate Your Experience - AI Travel Planner</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link"> &larr; Plan Another Plan</a>
+        <h1>Rate Your Activity</h1>
+        <form id="ratingForm">
+            <div class="form-group">
+                <label for="activityId">Choose Activity</label>
+                <select id="activityId">
+                    <option value="">-- Select an activity --</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="customerEmail">Your Email</label>
+                <input type="email" id="customerEmail" required placeholder="Mahmoudandelsamed.com">
+            </div>
+            <div class="form-group">
+                <label for="score">Rating (1-5)</label>
+                <select id="score" required>
+                    <option value="5">5 - Excellent</option>
+                    <option value="4">4 - Good</option>
+                    <option value="3">3 - Average</option>
+                    <option value="2">2 - Poor</option>
+                    <option value="1">1 - Terrible</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="comment">Comment (optional)</label>
+                <textarea id="comment" rows="3"></textarea>
+            </div>
+            <button type="submit" id="submitRatingBtn">Submit Rating</button>
+            <div id="ratingResult"></div>
+        </form>
+
+    </div>
+
+
+    <script src="js/trip-service.js"></script>
+    <script src="js/rating-form.js"></script>
+</body>
+</html>

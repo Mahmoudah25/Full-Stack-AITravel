@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Details - AI Travel Planner</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div id="notificationBanner" class="notification-banner"></div>
+    <div class="container">
+        <a href="index.html" class="back-link">&larr; Plan Another Trip</a>
+        <h1 id="tripTitle">Your Trip</h1>
+
+        <button id="generateBtn">Generate Itinerary</button>
+        <div id="itineraryResult"></div>
+
+        <a href="rating.html" class="back-link">Rate an Activity &rarr;</a>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.0/signalr.min.js"></script>
+    <script src="js/trip-service.js"></script>
+    <script src="js/notifications.js"></script>
+    <script src="js/trip-details.js"></script>
+</body>
+</html>
