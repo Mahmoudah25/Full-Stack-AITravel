@@ -1,5 +1,4 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
@@ -9,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AITravelB.Domain", "AITrave
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AITravelB.Application", "AITravelB.Application\AITravelB.Application.csproj", "{383A89D1-FD26-4D44-AED2-3E2739BCA723}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AITravelB.Presistence", "AITravelB.Presistence\AITravelB.Presistence.csproj", "{BEA2A093-E88E-4860-914F-620DB3CDE305}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AITravelB.Persistence", "AITravelB.Persistence\AITravelB.Persistence.csproj", "{BEA2A093-E88E-4860-914F-620DB3CDE305}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AITravelB.Infrastructure", "AITravelB.Infrastructure\AITravelB.Infrastructure.csproj", "{35EC8E78-EB9E-4B8F-B536-6B01EF60FBB4}"
 EndProject
